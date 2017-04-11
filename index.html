@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -19,8 +21,9 @@
 	        </h2>
 	      </div>
 	      <div class="col-xs-8 col-sm-8 col-lg-7">
-	        <h2 class="alignright">KENNETH KEHL</h2>
-	        <h3 class="alignright">FRONT-END NINJA</h3>
+	        <h2 class="alignright text-dark">KENNETH KEHL</h2>
+	        <h3 class="alignright text-dark">FRONT-END NINJA</h3>
+			<h4 class="alignleft text-dark">Saving cats, working for the CIA (oops! shouldn't have mentioned that), and setting world records are only a few of the hobbies and interests that I've developed as a result of my passionate devotion to responsive web page design.</h4>
 	      </div>
         </div>
 	
@@ -51,27 +54,82 @@
 	      <section>
             <div class="col-xs-12 col-sm-12 col-lg-3"></div>	
             <div  class="col-xs-12 col-sm-12 col-lg-3">
-	          <img class="img photo img-responsive" src="http://lorempixel.com/1100/600" alt="placeholder for project 1 photo"/>
-		      <h4 class="aligncenter text-dark">APPIFY</h4>
-		      <p class="lightgraylink"><a class="lightgraylink" href="https://github.com/kenneth_kehl/appify">https://github.com/kenneth_kehl/appify</a></p>
+	          <img class="img photo img-responsive" src="http://lorempixel.com/1100/600" alt="placeholder for project 1 photo" data-toggle="modal" data-target="#myModal1"/>
+		      <h4 class="aligncenter text-dark">CIA Project</h4>
+		      <p class="lightgraylink"><a class="lightgraylink" href="https://github.com/kenneth_kehl/cia_project">https://github.com/kenneth_kehl/cia_project</a></p>
 	        </div>
 	      </section>
 	      <section>
             <div  class="col-xs-12 col-sm-12 col-lg-3">
-	          <img class="img photo img-responsive" src="http://lorempixel.com/1100/600/sports" alt="placeholder for project 2 photo"/>
-		      <h4 class="aligncenter text-dark">APPIFY</h4>
-		      <p class="lightgraylink"><a class="lightgraylink" href="https://github.com/kenneth_kehl/appify">https://github.com/kenneth_kehl/appify</a></p>
+	          <img class="img photo img-responsive" src="http://lorempixel.com/1100/600/sports" alt="placeholder for project 2 photo" data-toggle="modal" data-target="#myModal2"/>
+		      <h4 class="aligncenter text-dark">Guinness World Record</h4>
+		      <p class="lightgraylink"><a class="lightgraylink" href="https://github.com/kenneth_kehl/guinness">https://github.com/kenneth_kehl/guinness</a></p>
 	        </div>	
           </section>
           <section>	  
 	        <div  class="col-xs-12 col-sm-12 col-lg-3">
-	          <img class="img photo img-responsive" src="http://lorempixel.com/1100/600/cats" alt="placeholder for project 3 photo"/>
-		      <h4 class="aligncenter text-dark">APPIFY</h4>
-		      <p class="lightgraylink"><a class="lightgraylink" href="https://github.com/kenneth_kehl/appify">https://github.com/kenneth_kehl/appify</a></p>
+	          <img class="img photo img-responsive" src="http://lorempixel.com/1100/600/cats" alt="placeholder for project 3 photo" data-toggle="modal" data-target="#myModal3"/>
+		      <h4 class="aligncenter text-dark">Save the Cats</h4>
+		      <p class="lightgraylink"><a class="lightgraylink" href="https://github.com/kenneth_kehl/save_cats">https://github.com/kenneth_kehl/save_cats</a></p>
 	        </div>
 	      </section>
         </div>
 	  </main>  
+    </div>
+	
+	
+	
+  <!-- Modal -->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">CIA Project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://lorempixel.com/1100/600">
+                    I'm afraid I'm not allowed to give you any details about this one!  I'll just say -- it's amazing what you can do with CSS!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<!-- Modal -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Guinness World Record</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://lorempixel.com/1100/600/sports">
+                    Can you guess which sport I set a Guinness World Record in?  And it never would've happened without Udacity.  I'll tell you about it someday.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- Modal -->
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Save the Cats</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img photo img-responsive" src="http://lorempixel.com/1100/600/cats">
+                    Using just my bootstrap skills, I saved all the world's cats. It wasn't easy, but someone had to do it.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
   </body>
 </html>
