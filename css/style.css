@@ -4,28 +4,28 @@
 
 /* zocial */
 [class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
+  font-family: "zocial", sans-serif;
   font-size: 80px;
   color: #02b3e4;
 }
 
 .body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .text-light {
   color: #7D97AD;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .text-dark {
   color: #2d3c49;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 a {
   color: #2d3c49;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .text-thin {
@@ -36,33 +36,33 @@ hr {
 	color: #2d3c49;
 }
 
-.lightgraylink {
+.light-gray-link {
 	color:#2d3c49;
 	text-align:center;
-	font-family: 'Lato', sans-serif;	
+	font-family: "Lato", sans-serif;	
 }
 
-.bluetone {
+.blue-tone {
 	color:#02b3e4;
 }
 
-.aligncenter {
+.align-center {
 	text-align: center;
 }
 
-.alignright {
+.align-right {
 	text-align: right;
 	padding-right: 10px;
 }
 
-.alignleft {
+.align-left {
 	text-align: left;
 	padding-left: 10px;
 }
 
 h3 {
 	text-align: center;
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 	color:#2d3c49;	
 }
 
@@ -71,6 +71,6 @@ photo {
     margin: 0 auto;
 }
 
-.aligndown {
+.align-down {
 	padding-top: 20px;
 }
